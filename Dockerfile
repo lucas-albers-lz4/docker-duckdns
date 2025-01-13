@@ -3,9 +3,8 @@ FROM alpine:latest
 
 # Maintainer information
 ARG VCS_REF
-LABEL maintainer="Maksim Stojkovic <https://github.com/maksimstojkovic>"
-LABEL org.opencontainers.image.source https://github.com/maksimstojkovic/docker-duckdns
-
+LABEL maintainer="Lucas Albers <https://github.com/lalbers-lz4>"
+LABEL org.opencontainers.image.source="https://hub.docker.com/r/lalberslz4/duckdns"
 # Install tools required
 RUN apk add --no-cache curl
 
